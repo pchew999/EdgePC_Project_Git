@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgePC_Project_Git
+  gitServerName: PC_Git
+  gitUrl: https://github.com/pchew999/EdgePC_Project_Git
+  gitUsername: pchew999
+  gitToken: edge.scaffolding.EdgePC_Project_Git.PC_Git.gitToken
+  gitBranch: main
