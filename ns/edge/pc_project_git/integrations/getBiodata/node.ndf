@@ -162,11 +162,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">pengchew.tan</value>
-    <value name="lastModifiedDate">1696593690809</value>
+    <value name="lastModifiedDate">1696838879595</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">0f582dc99fd1458a8049e595de0ad834</value>
+      <value name="group">default</value>
+      <value name="name">PC_EdgeRuntime1</value>
     </record>
     <value name="displayName">getBiodata</value>
     <value name="description"></value>
@@ -238,6 +238,7 @@
         <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
