@@ -1,6 +1,19 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.pc_project_git.integrations:getBiodata
+  packages:
+  - name: EdgePC_Project_Git
+    version: "1.0"
+- serviceName: edge.pc_project_git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getCustomerByID
+  packages:
+  - name: EdgePC_Project_Git
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgePC_Project_Git
   gitServerName: PC_Git
